@@ -1,0 +1,47 @@
+body {
+  margin: auto 0;
+  background-color: #f3fdf8;
+}
+.header-container{
+  margin-bottom: 5rem;
+}
+.nav-container{
+  background-color: #158852;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
+  font-weight: 800;
+  padding: 1rem;
+}
+.border-remove{
+  --bs-card-border-color: 0;
+}
+.form-box{
+  padding: 3rem;
+}
+.main-question-container{
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 800;
+  font-size: larger;
+  padding: 10;
+  border-radius: 0.3rem;
+}
+.sub-question-container{
+  font-weight: 600;
+}
+.next-button-container, .change-button-container{
+    margin-top: 1rem;
+    padding: 10 30;
+}
+.next-button-container{
+  padding: 10 80;
+}
+.radio-spacing{
+  padding-top:0.5rem ;
+  padding-bottom:0.5rem ;
+}
+.footer-container{
+  background-color: #158852;
+  min-height: 5rem;
+  margin-top: 3rem;
+}
