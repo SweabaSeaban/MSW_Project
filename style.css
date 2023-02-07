@@ -12,6 +12,9 @@ body {
   font-weight: 800;
   padding: 1rem;
 }
+.logo-container{
+  margin-left: 1rem;
+}
 .border-remove{
   --bs-card-border-color: 0;
 }
