@@ -1,9 +1,9 @@
 body {
-  margin: auto 0;
-  background-color: #f3fdf8;
+  margin: 0;
+  background-color: rgb(219, 219, 219);
 }
 .header-container{
-  margin-bottom: 5rem;
+  margin-bottom: 9rem;
 }
 .nav-container{
   background-color: #158852;
@@ -19,8 +19,13 @@ body {
   --bs-card-border-color: 0;
 }
 .form-box{
-  padding: 3rem;
+  /* padding: 3rem; */
 }
+
+.info-container{
+  margin-top: 1rem;
+}
+
 .main-question-container{
   color: black;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -45,6 +50,10 @@ body {
 }
 .footer-container{
   background-color: #158852;
-  min-height: 5rem;
+  min-height: 4rem;
   margin-top: 3rem;
+  min-width: 100%;
+}
+.result-container{
+  font-size:0.93rem;
 }
