@@ -34,12 +34,12 @@ body {
 .sub-question-container{
   font-weight: 600;
 }
-.next-button-container, .change-button-container{
+.next-button-container, .change-button-container, .email-container, .report-container, .padding-container{
     margin-top: 1rem;
-
 }
-.next-button-container{
-  padding: 10 120;
+.next-button-container, .change-button-container, .email-container, .report-container{
+  margin-top: 1rem;
+  width:410px;
 }
 .radio-spacing{
   padding-top:0.5rem ;
@@ -54,3 +54,7 @@ body {
 .result-container{
   font-size:0.93rem;
 }
+.vertical-container{
+  vertical-align: middle;
+}
+

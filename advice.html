@@ -1,0 +1,112 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link href="style.css" rel="stylesheet" /> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!--Header-->
+    <div class="header-container">
+        <nav class="navbar navbar-light nav-container fixed-top">
+            <a class="navbar-brand logo-container" href="https://rajagiri.edu/">
+                <img src="images/logo.jpg" width="70" height="70" class="d-inline-block align-top" alt="logo" />
+            </a>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link text-white active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!--End of Header-->
+
+    <!--Content-->
+    <div class="container">
+        <div class="row">
+            <div class="container-fluid col-lg-8 questions-container">
+                <div class="card border-remove">
+                    <div class="card-body">
+                        <div>
+                            <h4 class="text-center">What's next?</h4>
+                            <p class="result-container">Thanks for completing the questions. Click each section below to view further information and advice.</p>
+                        </div>
+                        <h5>Moderate Advice</h5>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button"  type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Tobacco
+                                </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Advice
+                                </div>
+                                </div>
+                            </div>
+                        </div>       
+                        
+                        <!--Report Name-->  
+                        <div class="row d-flex justify-content-center">
+                            <input type="text" class="form-control report-container" id="report-name" placeholder="report_id" aria-describedby="report-textbox">
+                        </div>
+                        <!--Download report-->           
+                        <div class="text-center d-grid gap-2 d-md-block row d-flex">
+                            <button type="button" name="" id="" class="btn btn-success next-button-container ">Download Report (PDF)</button>
+                        </div>
+                        <!--Download Feedback-->  
+                        <div class="text-center d-grid gap-2 d-md-block row d-flex">
+                            <button type="button" name="" id="" class="btn btn-success next-button-container">Download Feedback</button>
+                        </div>   
+                        <!--Next Button-->                
+                        <div class="text-center d-grid gap-2 d-md-block row d-flex">
+                            <button type="button" name="" id="" class="btn btn-success next-button-container">Next ></button>
+                        </div>
+                        <div class="text-center d-grid gap-2 d-md-block row d-flex">
+                            <button type="button" name="" id="" class="btn btn-outline-success next-button-container">< Changed my mind</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid col-lg info-container">
+                <div class="card border-remove">
+                    <div class="card-body">
+                        <div class="container">
+                            <h2>What is the eASSIST?</h2>
+                            <p>
+                                The eASSIST is an electronic version of the Alcohol, Smoking and Substance Involvement
+                                Screening Test (ASSIST) which was developed by the World Health Organization. The ASSIST
+                                has eight questions and takes approximately 5-10 minutes to complete. The ASSIST helps
+                                identify the risks associated with substance use and the personalised feedback helps
+                                explore options for change.
+                            </p>
+
+                            <h2>Need Help?</h2>
+                            <p>
+                                The Alcohol and Drug Information Service (ADIS) are State and Territory based phone
+                                services that offer information, advice and support. They provide services for health
+                                professionals, individuals, business and community groups. Phone 1800 250 015 to be
+                                linked to your nearest service.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--End of Content-->
+
+    <!--Footer-->
+    <div class="footer-container"></div>
+    <!--End of Footer-->
+</body>
+
+</html>

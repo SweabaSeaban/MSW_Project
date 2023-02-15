@@ -12,115 +12,113 @@
     <div class="header-container">
         <nav class="navbar navbar-light nav-container fixed-top">
             <a class="navbar-brand logo-container" href="https://rajagiri.edu/">
-                <img src="images/logo.jpg" width="70" height="70" class="d-inline-block align-top" alt="logo">
-              </a>
+                <img src="images/logo.jpg" width="70" height="70" class="d-inline-block align-top" alt="logo" />
+            </a>
             <ul class="nav justify-content-center">
                 <li class="nav-item">
-                  <a class="nav-link text-white active" href="#">Home</a>
+                    <a class="nav-link text-white active" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="#">Contact</a>
+                    <a class="nav-link text-white" href="#">Contact</a>
                 </li>
-              </ul>
+            </ul>
         </nav>
     </div>
     <!--End of Header-->
 
     <!--Content-->
+    <div class="container">
+        <div class="row">
+            <div class="container-fluid col-lg-8 questions-container">
+                <div class="card border-remove">
+                    <div class="card-body">
+                        <!--Main Question-->
+                        <div class="d-flex main-question-container">
+                            3) During the past three months, howoften have
+                            you had a strong desire or urge to use (first drug, second drug,
+                            etc)?
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                        </div>
+                        <form action="">
+                            <!--SubQuestion-->
+                            <ol class="list-group list-group-flush">
+                                <li class="list-group-item">
 
-    <div class="container-fluid form-box">
-        <div class="row align-items-start">
-            <div class="col-8 questions-container">
-                <div class="container ">
-                    <div class="card border-remove" style="width: 50rem;">
-                        <div class="card-body ">
-                            <!--Main Question-->
-                            <div class="d-flex main-question-container">
-                                3) During the past three months, howoften have
-                                you had a strong desire or urge to use (first drug, second drug,
-                                etc)?
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-                            </div>
-                            <form action="">
-                                <!--SubQuestion-->
-                                <ol class="list-group list-group-flush">
-                                    <li class="list-group-item">
+                                    <div class="sub-question-container">
+                                    <!--Display chosen item(s)-->
+                                    </div>
 
-                                        <div class="sub-question-container">
-                                        <!--Display chosen item(s)-->
+                                    <div>
+                                        <div class="form-check radio-spacing">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault1" />
+                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                Never
+                                            </label>
                                         </div>
-
-                                        <div>
-                                            <div class="form-check radio-spacing">
-                                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                                    id="flexRadioDefault1" />
-                                                <label class="form-check-label" for="flexRadioDefault1">
-                                                    Never
-                                                </label>
-                                            </div>
-                                            <div class="form-check radio-spacing">
-                                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                                    id="flexRadioDefault2" />
-                                                <label class="form-check-label" for="flexRadioDefault2">
-                                                    Once or Twice
-                                                </label>
-                                            </div>
-                                            <div class="form-check radio-spacing">
-                                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                                    id="flexRadioDefault1" />
-                                                <label class="form-check-label" for="flexRadioDefault3">
-                                                    Monthly
-                                                </label>
-                                            </div>
-                                            <div class="form-check radio-spacing">
-                                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                                    id="flexRadioDefault1" />
-                                                <label class="form-check-label" for="flexRadioDefault3">
-                                                    Weekly
-                                                </label>
-                                            </div>
-                                            <div class="form-check radio-spacing">
-                                                <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                                    id="flexRadioDefault1" />
-                                                <label class="form-check-label" for="flexRadioDefault3">
-                                                    Daily or Almost Daily
-                                                </label>
-                                            </div>
+                                        <div class="form-check radio-spacing">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault2" />
+                                            <label class="form-check-label" for="flexRadioDefault2">
+                                                Once or Twice
+                                            </label>
                                         </div>
-                                    </li>
-                                </ol>
+                                        <div class="form-check radio-spacing">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault1" />
+                                            <label class="form-check-label" for="flexRadioDefault3">
+                                                Monthly
+                                            </label>
+                                        </div>
+                                        <div class="form-check radio-spacing">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault1" />
+                                            <label class="form-check-label" for="flexRadioDefault3">
+                                                Weekly
+                                            </label>
+                                        </div>
+                                        <div class="form-check radio-spacing">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault1" />
+                                            <label class="form-check-label" for="flexRadioDefault3">
+                                                Daily or Almost Daily
+                                            </label>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ol>
                                 <!--Next Question Button-->
-                                <div class="text-center">
+                                <div class="text-center d-grid gap-2 d-md-block row d-flex">
                                     <button type="button" class="btn btn-success next-button-container">Next ></button>
                                 </div>
-                                <div class="text-center">
-                                    <button type="button" class="btn btn-outline-success change-button-container">< Changed my mind</button>
+                                <div class="text-center d-grid gap-2 d-md-block row d-flex">
+                                    <button type="button" class="btn btn-outline-success next-button-container">< Changed my mind</button>
                                 </div>
                             </form>
-                        </div>
-                      </div>
+                    </div>
                 </div>
             </div>
-            <div class="col info-container">
-                <div class="card border-remove" style="width: 18rem;">
+            <div class="container-fluid col-lg info-container">
+                <div class="card border-remove">
                     <div class="card-body">
                         <div class="container">
-                            <h2>Why eASSIST?</h2>
+                            <h2>What is the eASSIST?</h2>
                             <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum
-                                nobis aliquid eligendi dignissimos praesentium dolore distinctio
-                                corrupti quos? Delectus quae sit enim blanditiis natus ipsum nemo
-                                quis doloribus? Fugit, provident?
+                                The eASSIST is an electronic version of the Alcohol, Smoking and Substance Involvement
+                                Screening Test (ASSIST) which was developed by the World Health Organization. The ASSIST
+                                has eight questions and takes approximately 5-10 minutes to complete. The ASSIST helps
+                                identify the risks associated with substance use and the personalised feedback helps
+                                explore options for change.
                             </p>
-        
-                            <h2>Why eASSIST?</h2>
+
+                            <h2>Need Help?</h2>
                             <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum
-                                nobis aliquid eligendi dignissimos praesentium dolore distinctio
-                                corrupti quos? Delectus quae sit enim blanditiis natus ipsum nemo
-                                quis doloribus? Fugit, provident?
+                                The Alcohol and Drug Information Service (ADIS) are State and Territory based phone
+                                services that offer information, advice and support. They provide services for health
+                                professionals, individuals, business and community groups. Phone 1800 250 015 to be
+                                linked to your nearest service.
                             </p>
                         </div>
                     </div>
